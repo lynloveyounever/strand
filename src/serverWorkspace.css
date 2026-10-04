@@ -1,0 +1,52 @@
+/* Optional server controls share the editor's quiet, monochrome vocabulary. */
+.server-workspace { border-top:1px solid var(--line,#494949); margin-top:24px; padding-top:16px; min-width:0; }
+.server-workspace > details > summary { cursor:pointer; display:flex; align-items:center; gap:10px; min-height:44px; font-size:16px; font-weight:600; }
+.server-workspace > details > summary::before { content:'+'; font-size:22px; font-weight:400; }
+.server-workspace > details[open] > summary::before { content:'−'; }
+.server-workspace > details > summary span { font-size:11px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted,#b8b8b8); font-weight:400; }
+.server-workspace label { display:grid; gap:7px; margin:14px 0; min-width:0; font-size:13px; }
+.server-workspace input,.server-workspace textarea { box-sizing:border-box; width:100%; min-width:0; padding:10px; border:1px solid #68686e; background:#1c1c1f; color:#f2f2f4; font-size:14px; }
+.server-workspace textarea { resize:vertical; }
+.server-workspace .server-help { color:#b7b7c0; font-size:12px; line-height:1.7; }
+.server-workspace h3 { margin:0 0 10px; font-size:15px; font-weight:600; }
+.server-workspace p { overflow-wrap:anywhere; }
+.server-workspace button { min-height:42px; height:auto; white-space:normal; text-align:left; line-height:1.5; padding:8px 12px; }
+.server-actions { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0; }
+.server-actions p { flex:1; }
+.server-connection { border:1px solid #626269; padding:14px; margin:14px 0; display:flex; gap:12px; align-items:center; justify-content:space-between; }
+.server-connection > div { min-width:0; display:grid; gap:6px; }
+.server-connection span { overflow-wrap:anywhere; font-size:12px; color:#c6c6ce; }
+.server-connection small,.server-projects small { display:block; color:#b5b5bd; font-size:12px; margin-top:3px; }
+.server-projects,.server-remote,.server-assistant { margin:20px 0; padding-top:16px; border-top:1px solid #505057; }
+.server-projects > div { display:flex; gap:12px; justify-content:space-between; align-items:center; padding:10px 0; border-bottom:1px solid #44444b; }
+.server-projects > div > span { min-width:0; overflow-wrap:anywhere; }
+.server-review { border:1px solid #878790; border-left:3px solid #ccccd4; padding:14px; margin:18px 0; background:#2a2a30; }
+.server-snapshot { margin:12px 0; padding:12px; background:#1d1d22; border:1px solid #51515a; overflow-wrap:anywhere; }
+.server-snapshot > span { font-size:12px; color:#bebec7; }
+.server-workspace details details > summary { cursor:pointer; min-height:38px; display:flex; align-items:center; font-size:12px; text-decoration:underline; text-underline-offset:4px; }
+.server-workspace pre { white-space:pre-wrap; overflow-wrap:anywhere; word-break:break-word; max-height:240px; overflow:auto; font-size:12px; line-height:1.65; margin:0; padding:10px; background:#17171b; border:1px solid #4a4a52; }
+.server-workspace .server-warning { padding:10px 12px; background:#312b25; border-left:3px solid #d7b58a; color:#f0d5b2; font-size:13px; }
+.server-workspace .server-status { border-left:2px solid #b4b4c0; padding:8px 12px; font-size:13px; }
+.server-proposal { margin-top:20px; padding:14px; border:1px solid #72727c; }
+.server-proposal header { display:grid; gap:8px; overflow-wrap:anywhere; }
+.server-proposal header span { color:#bfbfc9; font-size:12px; text-transform:capitalize; }
+.server-workspace .server-diff { padding-left:0; list-style:none; margin:16px 0; }
+.server-workspace .server-diff li { margin:14px 0; padding:0; }
+.server-diff li > strong { display:block; overflow-wrap:anywhere; font-family:monospace; font-size:12px; margin-bottom:8px; }
+.server-diff li > div { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:8px; }
+.server-diff section { min-width:0; }
+.server-diff h4 { margin:0 0 6px; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:#bfbfc9; }
+.server-diff section:last-child pre { border-color:#8b8b97; }
+@media(max-width:600px) {
+ .server-workspace input,.server-workspace textarea { font-size:16px; }
+ .server-workspace button { min-height:44px; }
+ .server-connection,.server-projects > div { align-items:stretch; flex-direction:column; }
+ .server-actions > button { flex:1 1 180px; }
+ .server-diff li > div { grid-template-columns:minmax(0,1fr); }
+ .server-review,.server-proposal { padding:12px; }
+}
+.server-history { border-top:1px solid #505057; margin-top:16px; padding-top:4px; }
+.server-history h4 { font-size:13px; margin:12px 0; }
+.server-workspace .server-history ol { list-style:none; padding:0; margin:0; }
+.server-workspace .server-history li { display:grid; gap:6px; border-bottom:1px solid #45454d; margin:0; padding:12px 0; overflow-wrap:anywhere; font-size:13px; }
+.server-history small { color:#b6b6c0; font-size:11px; }

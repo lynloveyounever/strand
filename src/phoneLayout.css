@@ -1,0 +1,143 @@
+/* Final responsive contract. Keep phone overrides after every feature/theme sheet. */
+.layered-view .layered-view__rail button,
+.focus-event-track button { white-space:normal; overflow-wrap:anywhere; }
+.focus-event-track li { flex:1 0 135px; width:135px; min-width:0; }
+.focus-event-track button>b { max-width:100%; }
+.author-heading>div,.author-editor>header>div { min-width:0; }
+.story-authoring h1,.story-authoring h2,.story-authoring b,.story-authoring p,
+.timeline-navigator strong,.timeline-navigator p,.timeline-navigator b { overflow-wrap:anywhere; }
+.author-outline [hidden] { display:none!important; }
+.author-outline #author-scene-list>p { font-size:13px; color:#aaaab4; }
+
+@media (max-width:760px), (max-width:1100px) and (max-height:560px) and (pointer:coarse) {
+  .app.is-mobile {
+    height:var(--phone-viewport-height,100dvh);
+    padding-inline:env(safe-area-inset-left) env(safe-area-inset-right);
+  }
+  .app.is-mobile .topbar { padding-inline:10px; gap:8px; }
+  .brand { min-width:0; overflow:hidden; }
+  .brand>button { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .workspace-modes>button,.workspace-view-options { flex-shrink:0; }
+  .workspace-modes { scrollbar-width:thin; scroll-padding-inline:14px; }
+  .workspace-edge-tools { padding:2px 10px; gap:8px; }
+  .workspace-edge-tools>button { min-height:44px; min-width:44px; }
+  .workspace-edge-tools>button>span { display:none; }
+  .story-reader,.story-authoring,.timeline-navigator { scroll-padding-block:18px; overscroll-behavior-y:contain; }
+  .story-authoring { padding:16px 12px max(32px,env(safe-area-inset-bottom)); }
+  .story-authoring button { min-height:44px; white-space:normal; overflow-wrap:anywhere; }
+  .story-authoring summary { min-height:44px; padding-block:8px; }
+  .author-heading { flex-wrap:wrap; gap:4px 12px; margin-bottom:12px; }
+  .author-heading>div { flex:1 1 160px; }
+  .author-heading h1 { margin-bottom:6px; font-size:24px; }
+  .author-steps { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .author-steps button { padding:10px 8px; gap:7px; font-size:13px; }
+  .author-steps button span { min-width:0; gap:6px; white-space:normal; text-align:left; }
+  .author-steps button small { font-size:11px; }
+  .author-permission { margin:12px 0 16px; font-size:13px; }
+  .author-body { gap:18px; }
+  .author-outline { max-height:none; overflow:visible; padding:0; border:1px solid #4c4c54; border-radius:3px; }
+  .author-outline .author-outline-toggle { width:100%; justify-content:flex-start; text-align:left; padding:10px 12px; border:0; background:#26262b; }
+  .author-outline-toggle>span { flex:1; min-width:0; }
+  .author-outline-toggle b,.author-outline-toggle small { display:block; }
+  .author-outline-toggle b { font-size:14px; font-weight:550; }
+  .author-outline-toggle small { font-size:11px; }
+  .author-outline-toggle>.atlas-icon:last-child { width:15px; height:15px; transform:rotate(90deg); }
+  .author-outline-toggle[aria-expanded=true]>.atlas-icon:last-child { transform:rotate(-90deg); }
+  .author-outline #author-scene-list { padding:10px; max-height:min(320px,45dvh); overflow:auto; overscroll-behavior:contain; }
+  .author-outline ol { overscroll-behavior-x:contain; }
+  .author-editor>header { gap:8px; margin-bottom:12px; }
+  .author-editor h2 { margin-bottom:0; font-size:20px; }
+  .author-field { margin-bottom:18px; }
+  .author-field textarea { min-height:100px; }
+  .author-audience-link { flex-direction:column; gap:8px; }
+  .author-audience-link>div { width:100%; }
+  .author-audience-link>button { align-self:flex-end; }
+  .author-character form label { min-width:0; flex-basis:100%; }
+  .author-handoff-tools button { min-width:0; }
+  .author-blueprint { padding:18px 14px; }
+
+  .story-orientation-heading { flex-wrap:wrap; align-items:flex-start; }
+  .story-orientation-heading>div:first-child { flex:1 1 170px; min-width:0; }
+  .reader-project-actions { flex:1 1 100%; justify-content:flex-start; }
+  .reader-project-actions button { min-height:44px; }
+  .reading-tabs b { white-space:normal; }
+  .character-decision { grid-template-columns:minmax(0,1fr); }
+  .character-decision>section+section { border-left:0; border-top:1px solid #4f4f4f; padding:16px 0 0; }
+  .reader-section-heading>div { min-width:0; max-width:100%; }
+  .story-step-navigation>span { min-width:0; overflow-wrap:anywhere; }
+  .story-reader .story-route { position:static; }
+  .story-reader .story-route ol { min-height:0; max-height:min(330px,45dvh); }
+  .story-reader .story-event-heading>button { margin-left:0; }
+
+  .navigator-heading { flex-wrap:wrap; align-items:flex-start; }
+  .navigator-heading>div { min-width:0; flex-basis:100%; }
+  .navigator-heading h2 { flex-wrap:wrap; font-size:18px; }
+  .navigator-heading>button { margin-left:0; min-width:0; max-width:100%; white-space:normal; flex:1 1 120px; justify-content:center; }
+  .overview-lane-heading>button,.overview-mapping>button,
+  .reference-model-note>summary,.navigator-spatial>summary { min-height:44px; }
+  .overview-lane-heading>button,.overview-mapping>button { white-space:normal; text-align:left; }
+  .content-track-controls>label { min-width:0; flex:1 1 120px; }
+  .content-track-controls select { min-width:0; width:100%; max-width:100%; font-size:16px; min-height:44px; }
+  .track-visibility>summary { min-height:44px; display:flex; align-items:center; }
+  .track-visibility[open] { flex-basis:100%; min-width:0; }
+  .track-visibility>div { position:static; width:100%; min-width:0; max-width:none; max-height:min(300px,45dvh); margin-top:5px; box-shadow:none; }
+  .track-visibility label { min-height:44px; overflow-wrap:anywhere; }
+  .track-visibility input { flex-shrink:0; }
+  .content-lane-scroll { overflow-x:auto; overscroll-behavior-x:contain; scrollbar-width:thin; }
+  .content-lane-scroll>.content-number-lane,.content-lane-scroll>.content-state-lane { min-width:var(--content-lane-touch-width); }
+  .content-state-lane button,.content-number-targets button { min-width:44px; }
+  .content-row-label { min-height:44px; }
+  .content-form-pair,.engine-rule-fields { grid-template-columns:minmax(0,1fr); }
+  .content-definition fieldset { min-width:0; }
+  .content-tracks-panel>header { flex-wrap:wrap; }
+  .content-track-identity h3,.content-track-identity p,.world-timing-summary { overflow-wrap:anywhere; }
+  .camera-tools { min-width:0; max-width:100%; }
+  .camera-tools[open] { flex-basis:100%; }
+  .camera-tools[open] .holo-camera { position:static; inset:auto; width:100%; max-width:none; max-height:min(300px,45dvh); overflow:auto; margin-top:8px; box-shadow:none; }
+  .holo-camera label { flex-wrap:wrap; min-width:0; max-width:100%; }
+  .holo-camera input { max-width:100%; }
+  .phone-control-row label>select,.phone-jump select { font-size:16px; min-height:44px; }
+  .phone-card-actions,.phone-arrange>div { flex-wrap:wrap; }
+  .phone-card-actions button,.phone-arrange button { min-width:0; white-space:normal; }
+  .phone-state { grid-template-columns:52px minmax(0,1fr); }
+  .phone-state b { overflow-wrap:anywhere; }
+
+  /* Equal specificity beats older sheet rules; sheets must sit above their backdrop. */
+  .sheet-backdrop { z-index:25; }
+  .outline.mobile-sheet,.inspector.mobile-sheet {
+    z-index:30;
+    inset:auto env(safe-area-inset-right) auto env(safe-area-inset-left);
+    top:calc(var(--phone-viewport-top,0px) + max(6px,env(safe-area-inset-top)));
+    width:auto; min-width:0; max-width:none;
+    height:calc(var(--phone-viewport-height,100dvh) - max(6px,env(safe-area-inset-top)));
+    max-height:none;
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+  .mobile-sheet .sheet-header,.mobile-sheet .panel-head { min-height:60px; height:auto; flex-shrink:0; background:#252527; }
+  .mobile-sheet .inspector-tabs { min-height:56px; padding-inline:8px; }
+  .mobile-sheet .inspector-tabs>button { flex:1 0 48px; min-width:48px; min-height:52px; padding:6px 4px; gap:4px; }
+  .mobile-sheet .inspector-content,.mobile-sheet .outline-scroll { min-height:0; min-width:0; scroll-padding-block:14px; }
+  .tree-item>.twisty,.tree-item>.leaf-dot { flex-basis:44px; width:44px; }
+  .outline .panel-head { flex-wrap:wrap; gap:4px; }
+  .outline-context-actions { flex-shrink:0; }
+  .modal-backdrop { top:var(--phone-viewport-top,0px); bottom:auto; height:var(--phone-viewport-height,100dvh); padding:max(8px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left)); }
+  .modal { width:100%; min-width:0; max-height:calc(var(--phone-viewport-height,100dvh) - max(8px,env(safe-area-inset-top)) - max(8px,env(safe-area-inset-bottom))); }
+  .project-file-actions { flex-wrap:wrap; }
+  .project-file-actions>* { min-width:0; }
+}
+
+@media (max-width:1100px) and (max-height:560px) {
+  /* One scrolling sheet avoids fixed headers consuming the entire keyboard viewport. */
+  .app.is-mobile .outline.mobile-sheet,.app.is-mobile .inspector.mobile-sheet { display:block; overflow:auto; overscroll-behavior:contain; }
+  .app.is-mobile .mobile-sheet .sheet-header,.app.is-mobile .mobile-sheet .panel-head { position:sticky; top:0; z-index:2; min-height:52px; padding-block:4px; }
+  .app.is-mobile .mobile-sheet .inspector-content,.app.is-mobile .mobile-sheet .outline-scroll { overflow:visible; }
+  .app.is-mobile .topbar { height:48px; }
+  .app.is-mobile .workspace-modes { min-height:44px; padding-block:0; }
+  .app.is-mobile .workspace-modes>button { min-height:44px; padding-block:7px; }
+  .app.is-mobile .mobile-dock { padding-block:0; }
+  .app.is-mobile .mobile-dock button { min-height:44px; flex-direction:row; }
+  .app.is-mobile .timeline-main { overflow:auto; }
+  .app.is-mobile .canvas-body { flex:1 0 210px; overflow:visible; }
+  .app.is-mobile .canvas-body>.story-reader,.app.is-mobile .canvas-body>.story-authoring,
+  .app.is-mobile .canvas-body>.timeline-navigator { height:auto; overflow:visible; }
+}

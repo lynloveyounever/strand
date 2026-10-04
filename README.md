@@ -16,6 +16,10 @@ Start with **發生什麼**; the other writing and design fields remain optional
 
 The phone layout keeps writing fields visible first with a compact scene/event picker. Sheets account for the visual viewport and safe areas, and long track lanes scroll with explicit touch targets. Browser-rendered pixels and physical devices remain unverified.
 
+## Save and restore reliability
+
+Focused writing is committed before closing settings or exporting a JSON backup. Chinese/IME composition is preserved when Escape is pressed. Import applies only the newest selected file and keeps current work if the story changes while reading a backup. Cancelled, malformed or failed imports preserve the story and undo history. Regression coverage includes fresh-story writing, reordering, deletion cancellation, undo/redo, local reopening and actual JSON backup restoration.
+
 ## Scope and compatibility
 
 The product scope is story, narrative and screenwriting. Existing realization/director-stage records remain readable for backward compatibility. There is no dedicated dialogue, subtext, voice or audiovisual directing editor.
@@ -31,7 +35,7 @@ npm ci
 npm run dev
 ```
 
-Open the localhost address printed by Vite. The application has no backend, account credentials, analytics or external API. Project data is saved in the current browser; export JSON for a portable backup.
+Open the localhost address printed by Vite. The front end works without a server. Project data is saved in the current browser; export JSON for a portable backup. The optional FastAPI service supports explicit remote snapshots and reviewed assistant proposals.
 
 ## Verify and build
 
@@ -44,7 +48,13 @@ npm run preview
 
 The build writes static assets to `dist/`. Serve that directory with a static web server. No hosting-specific configuration is required.
 
-The source baseline passes 369 automated domain and React/DOM tests, TypeScript checks and a production build. An independent review checked mobile/desktop DOM flows and the actual exported TXT/JSON Blob contents. Pixel-level browser and physical-device QA were not completed for that baseline; automated checks do not establish visual verification.
+The source baseline passes 405 automated domain and React/DOM tests, TypeScript checks and a production build. The canonical backend passed 54 Python tests and 38 parametrized subtests; its final source is preserved byte-for-byte in this export. An independent review checked mobile/desktop DOM flows and the actual exported TXT/JSON Blob contents. Pixel-level browser and physical-device QA were not completed for that baseline; automated checks do not establish visual verification.
+
+## Optional FastAPI backend
+
+The repository includes a single-owner FastAPI service with SQLite storage, revision checks, version history, backups and owner-reviewed assistant proposals. An optional server-side OpenAI-compatible adapter and Streamable HTTP MCP endpoint use separate owner and agent permissions. Connecting never automatically uploads, merges or replaces browser-local stories.
+
+See [backend setup and API documentation](backend/README.md) for Python 3.12, Node.js, configuration, Docker and test instructions. Credentials, live databases and model calls are not included. The Python service needs a separate compatible host; it has not been deployed with the static front end. Automatic synchronization, multi-user accounts and billing are outside this release.
 
 ## Source download
 
@@ -65,10 +75,13 @@ This regenerates `public/strand-source.zip`, used by the in-app source-download 
 - `src/audienceEngine.ts`, `src/audienceSimulation.ts`: deterministic audience-rule hypotheses and provenance
 - `src/EventFocus.tsx`, `src/eventWorkflow.ts`: event-centered editing, explicit dependency checks and edit-impact reporting
 - `src/phoneLayout.ts`, `src/phoneLayout.css`: phone viewport behavior and final responsive rules
-- `src/*.test.*`: domain and React/DOM regression coverage
+- `src/ServerWorkspace.tsx`, `src/serverClient.ts`: explicit server connection and reviewed proposal UI
+- `backend/strand_api/`: FastAPI routes, storage, proposal service, provider adapter and MCP server
+- `backend/domain/bridge.ts`: bounded bridge to the editor’s canonical TypeScript rules
+- `src/*.test.*`, `backend/tests/`: domain, React/DOM, HTTP and MCP regression coverage
 
 See [the implementation guide and revision notes](docs/implementation-guide.md) for detailed behavior, data contracts and historical verification.
 
 ## Source provenance
 
-This portable export is based on source revision `5b6d2319d53e33967931e9f0f515040cbc13e23a`. Changes in this export are limited to Strand branding, repository documentation and source-package naming. No new license grant is added.
+This portable export is based on source revision `fd67b31276c86efc0bd69dba2722e43ae5cf5cc0`. Changes in this export are limited to Strand branding, repository documentation and source-package naming. No new license grant is added.

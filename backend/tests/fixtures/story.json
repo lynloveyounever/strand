@@ -1,0 +1,2048 @@
+{
+  "schemaVersion": 2,
+  "sampleKind": "fog-harbor",
+  "timelines": {
+    "reality": {
+      "revision": 1,
+      "placements": [
+        {
+          "id": "reality-e1",
+          "eventId": "e1",
+          "containerId": "s1",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e2",
+          "eventId": "e2",
+          "containerId": "s1",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e3",
+          "eventId": "e3",
+          "containerId": "s2",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e4",
+          "eventId": "e4",
+          "containerId": "s2",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e5",
+          "eventId": "e5",
+          "containerId": "s3",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e6",
+          "eventId": "e6",
+          "containerId": "s3",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e7",
+          "eventId": "e7",
+          "containerId": "s4",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e8",
+          "eventId": "e8",
+          "containerId": "s4",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e9",
+          "eventId": "e9",
+          "containerId": "s5",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e10",
+          "eventId": "e10",
+          "containerId": "s5",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e11",
+          "eventId": "e11",
+          "containerId": "s6",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e12",
+          "eventId": "e12",
+          "containerId": "s6",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e13",
+          "eventId": "e13",
+          "containerId": "s7",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e14",
+          "eventId": "e14",
+          "containerId": "s7",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e15",
+          "eventId": "e15",
+          "containerId": "s8",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "reality-e16",
+          "eventId": "e16",
+          "containerId": "s8",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "confirmed",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        }
+      ]
+    },
+    "narrative": {
+      "revision": 1,
+      "placements": [
+        {
+          "id": "narrative-e1",
+          "eventId": "e1",
+          "containerId": "s1",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "封港後，17 號倉庫仍有一盞燈。林看見它，但不知道誰在發訊號。",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "narrative-e2",
+          "eventId": "e2",
+          "containerId": "s1",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "narrative-e3",
+          "eventId": "e3",
+          "containerId": "s2",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "林在哥哥外套裡找到一張公司報稱失竊貨櫃的封條。她尚不知道貨櫃與偷排有關。",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "narrative-e4",
+          "eventId": "e4",
+          "containerId": "s2",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "narrative-e5",
+          "eventId": "e5",
+          "containerId": "s3",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": [
+            {
+              "trackId": "audience",
+              "interpretation": "照片似乎坐實哥哥涉案",
+              "reaction": "把先前線索串成錯誤解釋",
+              "after": {
+                "state": "誤判",
+                "knowledge": "阿澤確實進了倉庫；目的仍未知",
+                "goal": "等待他承認罪行",
+                "obstacle": "把出現地點當作動機",
+                "motivation": "希望拼出一致的答案"
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-e6",
+          "eventId": "e6",
+          "containerId": "s3",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "narrative-e7",
+          "eventId": "e7",
+          "containerId": "s4",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "narrative-e8",
+          "eventId": "e8",
+          "containerId": "s4",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "narrative-e9",
+          "eventId": "e9",
+          "containerId": "s5",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "narrative-e10",
+          "eventId": "e10",
+          "containerId": "s5",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": [
+            {
+              "trackId": "audience",
+              "interpretation": "第一幕的燈有完全不同的意義",
+              "reaction": "重新理解已經看過的線索",
+              "after": {
+                "state": "恍然",
+                "knowledge": "燈是求救訊號；片面照片誤導了判斷",
+                "goal": "看見真相能否被公開",
+                "obstacle": "公司仍控制港口",
+                "motivation": "希望理解轉化成行動"
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-e11",
+          "eventId": "e11",
+          "containerId": "s6",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "narrative-e12",
+          "eventId": "e12",
+          "containerId": "s6",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "narrative-e13",
+          "eventId": "e13",
+          "containerId": "s7",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": [
+            {
+              "trackId": "audience",
+              "interpretation": "秘密終於成為公開的事實",
+              "reaction": "關注人物必須付出的代價",
+              "after": {
+                "state": "共同見證",
+                "knowledge": "完整錄音已公開，偷排事實可被核查",
+                "goal": "看見公開之後的後果",
+                "obstacle": "結果還沒有保證",
+                "motivation": "期待選擇有真實重量"
+              }
+            }
+          ]
+        },
+        {
+          "id": "narrative-e14",
+          "eventId": "e14",
+          "containerId": "s7",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "narrative-e15",
+          "eventId": "e15",
+          "containerId": "s8",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "narrative-e16",
+          "eventId": "e16",
+          "containerId": "s8",
+          "mode": "present",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        }
+      ]
+    },
+    "audience": {
+      "revision": 1,
+      "placements": [
+        {
+          "id": "audience-e1",
+          "eventId": "e1",
+          "containerId": "s1",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "audience-e2",
+          "eventId": "e2",
+          "containerId": "s1",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "audience-e3",
+          "eventId": "e3",
+          "containerId": "s2",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "audience-e4",
+          "eventId": "e4",
+          "containerId": "s2",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "audience-e5",
+          "eventId": "e5",
+          "containerId": "s3",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": [
+            {
+              "trackId": "audience",
+              "interpretation": "照片似乎坐實哥哥涉案",
+              "reaction": "把先前線索串成錯誤解釋",
+              "after": {
+                "state": "誤判",
+                "knowledge": "阿澤確實進了倉庫；目的仍未知",
+                "goal": "等待他承認罪行",
+                "obstacle": "把出現地點當作動機",
+                "motivation": "希望拼出一致的答案"
+              }
+            }
+          ]
+        },
+        {
+          "id": "audience-e6",
+          "eventId": "e6",
+          "containerId": "s3",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "audience-e7",
+          "eventId": "e7",
+          "containerId": "s4",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "audience-e8",
+          "eventId": "e8",
+          "containerId": "s4",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "audience-e9",
+          "eventId": "e9",
+          "containerId": "s5",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "audience-e10",
+          "eventId": "e10",
+          "containerId": "s5",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": [
+            {
+              "trackId": "audience",
+              "interpretation": "第一幕的燈有完全不同的意義",
+              "reaction": "重新理解已經看過的線索",
+              "after": {
+                "state": "恍然",
+                "knowledge": "燈是求救訊號；片面照片誤導了判斷",
+                "goal": "看見真相能否被公開",
+                "obstacle": "公司仍控制港口",
+                "motivation": "希望理解轉化成行動"
+              }
+            }
+          ]
+        },
+        {
+          "id": "audience-e11",
+          "eventId": "e11",
+          "containerId": "s6",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "audience-e12",
+          "eventId": "e12",
+          "containerId": "s6",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "audience-e13",
+          "eventId": "e13",
+          "containerId": "s7",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": [
+            {
+              "trackId": "audience",
+              "interpretation": "秘密終於成為公開的事實",
+              "reaction": "關注人物必須付出的代價",
+              "after": {
+                "state": "共同見證",
+                "knowledge": "完整錄音已公開，偷排事實可被核查",
+                "goal": "看見公開之後的後果",
+                "obstacle": "結果還沒有保證",
+                "motivation": "期待選擇有真實重量"
+              }
+            }
+          ]
+        },
+        {
+          "id": "audience-e14",
+          "eventId": "e14",
+          "containerId": "s7",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "audience-e15",
+          "eventId": "e15",
+          "containerId": "s8",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        },
+        {
+          "id": "audience-e16",
+          "eventId": "e16",
+          "containerId": "s8",
+          "mode": "disclosure",
+          "pacing": "scene",
+          "disclosure": "partial",
+          "note": "",
+          "knowledgeNote": "",
+          "updates": []
+        }
+      ]
+    }
+  },
+  "title": "霧港末班船",
+  "premise": "封港之夜，一名女孩誤把哥哥的保護當成背叛。當唯一的末班船即將離開，她必須選擇相信證據，還是相信一個不肯解釋的人。",
+  "units": [
+    {
+      "id": "story",
+      "parentId": null,
+      "kind": "story",
+      "title": "霧港末班船",
+      "summary": "封港之夜，一名女孩誤把哥哥的保護當成背叛。當唯一的末班船即將離開，她必須選擇相信證據，還是相信一個不肯解釋的人。",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "a1",
+      "parentId": "story",
+      "kind": "act",
+      "title": "I · 相信表面",
+      "summary": "一個異常被當作罪證",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "a2",
+      "parentId": "story",
+      "kind": "act",
+      "title": "II · 付出代價",
+      "summary": "錯誤結論逼出真正的選擇",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "a3",
+      "parentId": "story",
+      "kind": "act",
+      "title": "III · 共同承擔",
+      "summary": "理解不是免除代價",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "q1",
+      "parentId": "a1",
+      "kind": "sequence",
+      "title": "離港之前",
+      "summary": "建立信任與第一個疑點",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "q2",
+      "parentId": "a1",
+      "kind": "sequence",
+      "title": "片面證據",
+      "summary": "懷疑變成決裂",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "q3",
+      "parentId": "a2",
+      "kind": "sequence",
+      "title": "真相浮出",
+      "summary": "同一證據被重新理解",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "q4",
+      "parentId": "a3",
+      "kind": "sequence",
+      "title": "把秘密說出去",
+      "summary": "人物以行動完成改變",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "s1",
+      "parentId": "q1",
+      "kind": "scene",
+      "title": "碼頭 · 停電後",
+      "summary": "阿澤秘密求救，把藏有證據的船票交給妹妹，希望她先離港。",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "s2",
+      "parentId": "q1",
+      "kind": "scene",
+      "title": "家門口 · 濕外套",
+      "summary": "貨櫃封條與被刪掉的訊息讓林懷疑哥哥涉案。",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "s3",
+      "parentId": "q2",
+      "kind": "scene",
+      "title": "巡邏站 · 一張照片",
+      "summary": "照片加深誤會；哥哥拒絕解釋，林決定自行追查。",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "s4",
+      "parentId": "q2",
+      "kind": "scene",
+      "title": "17 號倉庫 · 側門",
+      "summary": "林找到缺卡的錄音機，反鎖側門逼哥哥交代。",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "s5",
+      "parentId": "q3",
+      "kind": "scene",
+      "title": "倉庫內 · 漲潮",
+      "summary": "兄妹被困；阿澤說出燈光是求救暗號，林開始修正判斷。",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "s6",
+      "parentId": "q3",
+      "kind": "scene",
+      "title": "倉庫內 · 船票",
+      "summary": "船票裡的記憶卡揭開真相；林打開側門，選擇留下公開證據。",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "s7",
+      "parentId": "q4",
+      "kind": "scene",
+      "title": "廣播室 · 午夜",
+      "summary": "兄妹用廣播播出錄音，對岸漁船回應，秘密成為共同知識。",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "s8",
+      "parentId": "q4",
+      "kind": "scene",
+      "title": "堤岸 · 末班船",
+      "summary": "兄妹錯過末班船、留下受查；事後約定不再替彼此決定。",
+      "eventType": "action",
+      "intent": "",
+      "audienceEffect": "",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      }
+    },
+    {
+      "id": "e1",
+      "parentId": "s1",
+      "kind": "beat",
+      "title": "燈還亮著",
+      "summary": "封港後，阿澤藏在 17 號倉庫，用燈向對岸漁船發出求救訊號。",
+      "eventType": "foreshadow",
+      "intent": "建立一個日後能被重新理解的異常",
+      "audienceEffect": "好奇：誰仍留在裡面？",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "建立一個日後能被重新理解的異常",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "阿澤複製了公司的偷排錄音，被困在封鎖的港口，需要外界接應。",
+        "outcome": "倉庫的燈成為可見線索；林尚不知道它是求救。"
+      }
+    },
+    {
+      "id": "e2",
+      "parentId": "s1",
+      "kind": "beat",
+      "title": "最後一張船票",
+      "summary": "阿澤把自己的船票交給林，說他很快就到。",
+      "eventType": "dialogue",
+      "intent": "讓保護與隱瞞同時成立",
+      "audienceEffect": "暫時信任哥哥",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "讓保護與隱瞞同時成立",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "阿澤怕證據被公司攔下，也想讓妹妹脫險，將記憶卡藏進船票。",
+        "outcome": "林收下船票，離港的機會與證據都交到她手裡。"
+      }
+    },
+    {
+      "id": "e3",
+      "parentId": "s2",
+      "kind": "beat",
+      "title": "濕透的封條",
+      "summary": "林在哥哥外套裡找到貨櫃封條。那是偷排廢料的貨櫃，公司卻將它報成失竊。",
+      "eventType": "foreshadow",
+      "intent": "讓關係中的疑點成為可見的證據",
+      "audienceEffect": "懷疑哥哥涉案",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "讓關係中的疑點成為可見的證據",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "阿澤從貨櫃取得偷排證據，卻把封條留在外套；林只聽過公司的失竊說法。",
+        "outcome": "林把封條當成哥哥涉案的線索，開始私下確認。"
+      }
+    },
+    {
+      "id": "e4",
+      "parentId": "s2",
+      "kind": "beat",
+      "title": "刪掉的電話",
+      "summary": "阿澤當著林的面刪除一則語音訊息。",
+      "eventType": "action",
+      "intent": "信任第一次出現裂縫",
+      "audienceEffect": "誤以為他在銷毀罪證",
+      "turningPoint": true,
+      "stages": {
+        "blueprint": {
+          "text": "信任第一次出現裂縫",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "公司發來威脅訊息；阿澤擔心林看見內容後會被捲入。",
+        "outcome": "訊息被刪除，保護的用意反而看起來像銷毀罪證。"
+      }
+    },
+    {
+      "id": "e5",
+      "parentId": "s3",
+      "kind": "beat",
+      "title": "錯誤的指認",
+      "summary": "巡邏員展示阿澤進入倉庫的照片。",
+      "eventType": "reveal",
+      "intent": "把片面真相變成一個錯誤結論",
+      "audienceEffect": "從懷疑走向誤判",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "把片面真相變成一個錯誤結論",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "巡邏隊掌握阿澤進倉庫的照片，卻沒有提供他進去的目的。",
+        "outcome": "片面證據強化林與觀眾的誤判。"
+      }
+    },
+    {
+      "id": "e6",
+      "parentId": "s3",
+      "kind": "beat",
+      "title": "他沒有否認",
+      "summary": "林質問阿澤；他只說：「你上船就好。」",
+      "eventType": "dialogue",
+      "intent": "讓善意造成更深的傷害",
+      "audienceEffect": "想知道他在保護誰",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "讓善意造成更深的傷害",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "阿澤避開目光，停半拍才說「你上船就好」。不替他解釋動機。",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "林看到照片後質問哥哥；阿澤仍認為不解釋才能保護她。",
+        "outcome": "林將沉默理解為不信任，決定自行追查。",
+        "causeEventId": "e5"
+      }
+    },
+    {
+      "id": "e7",
+      "parentId": "s4",
+      "kind": "beat",
+      "title": "錄音機的空格",
+      "summary": "林循封條上的倉庫編號追查，在 17 號倉庫找到哥哥的錄音機，但記憶卡不見了。",
+      "eventType": "foreshadow",
+      "intent": "保留缺口，不提前揭露答案",
+      "audienceEffect": "確認還有另一段故事",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "保留缺口，不提前揭露答案",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "哥哥拒絕交代，林便循外套上的封條編號追查倉庫。",
+        "outcome": "林發現錄音機，卻因缺少記憶卡而無法確認真相。",
+        "causeEventId": "e6"
+      }
+    },
+    {
+      "id": "e8",
+      "parentId": "s4",
+      "kind": "beat",
+      "title": "把門反鎖",
+      "summary": "林鎖住倉库側門，想逼哥哥說實話。",
+      "eventType": "action",
+      "intent": "讓誤判產生真正的後果",
+      "audienceEffect": "意識到林也可能犯錯",
+      "turningPoint": true,
+      "stages": {
+        "blueprint": {
+          "text": "讓誤判產生真正的後果",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "林以為把哥哥留下對質，就能問出錄音機缺少的證據在哪裡。",
+        "outcome": "唯一可用的側門被鎖；林的誤判實際削弱了兩人的逃生路徑。",
+        "causeEventId": "e7"
+      }
+    },
+    {
+      "id": "e9",
+      "parentId": "s5",
+      "kind": "beat",
+      "title": "潮水越過門檻",
+      "summary": "公司的人堵住正門；潮水從排水孔倒灌，而唯一的側門被林反鎖。",
+      "eventType": "action",
+      "intent": "把資訊衝突變成迫切的共同危機",
+      "audienceEffect": "兄妹不能再各自逃避",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "把資訊衝突變成迫切的共同危機",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "公司追兵封住正門；漲潮時水倒灌，林剛鎖住的側門又阻擋逃生。",
+        "outcome": "兄妹同時受困，阿澤不得不停止隱瞞、尋求林的合作。",
+        "causeEventId": "e8"
+      }
+    },
+    {
+      "id": "e10",
+      "parentId": "s5",
+      "kind": "beat",
+      "title": "燈下的暗號",
+      "summary": "阿澤讓林看倉庫燈：三短一長，求救暗號。",
+      "eventType": "reveal",
+      "intent": "回收最初的異常，重寫燈的意義",
+      "audienceEffect": "恍然：亮燈不是同謀的訊號",
+      "turningPoint": true,
+      "stages": {
+        "blueprint": {
+          "text": "回收最初的異常，重寫燈的意義",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "先保留燈光的節奏，再讓林看見；讓觀眾與她同時重讀第一幕。",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "困局證明沉默無法保護林，阿澤向她解釋一直在發出的燈光暗號。",
+        "outcome": "林明白哥哥是在求救，願意重新檢查先前的判斷。",
+        "causeEventId": "e9"
+      }
+    },
+    {
+      "id": "e11",
+      "parentId": "s6",
+      "kind": "beat",
+      "title": "記憶卡在船票裡",
+      "summary": "林撕開船票，找到哥哥藏入的記憶卡。",
+      "eventType": "reveal",
+      "intent": "將保護行動與實物證據連接",
+      "audienceEffect": "理解哥哥一直想讓證據離港",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "將保護行動與實物證據連接",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "林理解燈號後追問完整證據；阿澤告訴她記憶卡藏在船票裡。",
+        "outcome": "錄音把貨櫃、公司的追捕與哥哥的保護連成完整真相。",
+        "causeEventId": "e10"
+      }
+    },
+    {
+      "id": "e12",
+      "parentId": "s6",
+      "kind": "beat",
+      "title": "我也要留下來",
+      "summary": "林打開自己反鎖的側門，和哥哥逃出。她決定不登船，要留下公開錄音。",
+      "eventType": "dialogue",
+      "intent": "讓人物主動選擇新的關係方式",
+      "audienceEffect": "從知道真相走向承擔代價",
+      "turningPoint": true,
+      "stages": {
+        "blueprint": {
+          "text": "讓人物主動選擇新的關係方式",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "林停止摸索逃生的門，轉身走向哥哥。台詞是選擇的結果。",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "林聽完錄音，知道自己可以帶證據先走，也可以留下與哥哥共同承擔。",
+        "outcome": "她打開側門，兩人脫困；阿澤交出廣播室鑰匙，一起走向廣播室。",
+        "causeEventId": "e11"
+      }
+    },
+    {
+      "id": "e13",
+      "parentId": "s7",
+      "kind": "beat",
+      "title": "未剪接的錄音",
+      "summary": "兄妹用港口廣播播出排污指令的完整錄音。",
+      "eventType": "action",
+      "intent": "把私人的秘密轉為所有人的共同知識",
+      "audienceEffect": "懸念轉為對後果的期待",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "把私人的秘密轉為所有人的共同知識",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "兄妹已決定留下，帶著記憶卡與鑰匙抵達港口廣播室。",
+        "outcome": "完整排污指令傳遍港口，公司不能再獨占事情的說法。",
+        "causeEventId": "e12"
+      }
+    },
+    {
+      "id": "e14",
+      "parentId": "s7",
+      "kind": "beat",
+      "title": "亮起第二盞燈",
+      "summary": "對岸漁船亮燈回應；其他船陸續加入。",
+      "eventType": "action",
+      "intent": "讓最初孤立的訊號形成集體回應",
+      "audienceEffect": "看見行動的擴散",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "讓最初孤立的訊號形成集體回應",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "對岸漁船聽見完整錄音，確認求救與公司的偷排有關。",
+        "outcome": "更多船隻亮燈回應，兄妹不再孤立無援。",
+        "causeEventId": "e13"
+      }
+    },
+    {
+      "id": "e15",
+      "parentId": "s8",
+      "kind": "beat",
+      "title": "沒有搭上的末班船",
+      "summary": "末班船離港，兄妹站在堤岸接受調查。",
+      "eventType": "action",
+      "intent": "兌現選擇的代價，拒絕廉價勝利",
+      "audienceEffect": "勝利帶有失去",
+      "turningPoint": false,
+      "stages": {
+        "blueprint": {
+          "text": "兌現選擇的代價，拒絕廉價勝利",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "兄妹選擇公開證據並配合調查，因此錯過唯一的末班船。",
+        "outcome": "真相公開了，離港計畫卻必須延後；選擇留下帶來實際代價。",
+        "causeEventId": "e13"
+      }
+    },
+    {
+      "id": "e16",
+      "parentId": "s8",
+      "kind": "beat",
+      "title": "下次不要替我決定",
+      "summary": "調查告一段落後，林買來兩張新船票，把一張交給阿澤：「下次不要替我決定。」",
+      "eventType": "dialogue",
+      "intent": "以新的相處規則完成弧線",
+      "audienceEffect": "重新信任，但不再盲從",
+      "turningPoint": true,
+      "stages": {
+        "blueprint": {
+          "text": "以新的相處規則完成弧線",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "actor": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        },
+        "director": {
+          "text": "",
+          "revision": 1,
+          "status": "draft",
+          "blueprintRevision": 1,
+          "approvals": []
+        }
+      },
+      "storyLogic": {
+        "cause": "共同受查後，兄妹重新安排離港；林仍願意同行，但要求參與每個決定。",
+        "outcome": "兩人以共享真相與選擇取代單方面保護，建立有界線的信任。",
+        "causeEventId": "e15"
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "id": "lin",
+      "name": "林 · 妹妹",
+      "kind": "character",
+      "color": "#77c9b0",
+      "description": "信任 → 懷疑 → 決裂 → 主動理解",
+      "initial": {
+        "state": "信任",
+        "knowledge": "哥哥阿澤答應今晚回港",
+        "goal": "帶哥哥安全離港",
+        "obstacle": "港口因失竊而封鎖",
+        "motivation": "守住最後的家人"
+      }
+    },
+    {
+      "id": "ze",
+      "name": "阿澤 · 哥哥",
+      "kind": "character",
+      "color": "#dfa96e",
+      "description": "隱瞞 → 孤立 → 坦白 → 共同承擔",
+      "initial": {
+        "state": "隱瞞",
+        "knowledge": "船運公司偷排廢料；證據藏在錄音機",
+        "goal": "把證據送出港",
+        "obstacle": "公司控制巡邏隊",
+        "motivation": "補償自己曾經的沉默"
+      }
+    },
+    {
+      "id": "audience",
+      "name": "觀眾",
+      "kind": "audience",
+      "color": "#a6a1e3",
+      "description": "好奇 → 誤判 → 恍然 → 重讀",
+      "initial": {
+        "state": "好奇",
+        "knowledge": "霧港停電，一艘船仍亮著燈",
+        "goal": "理解誰在說謊",
+        "obstacle": "資訊被遮蔽",
+        "motivation": "追查消失的貨櫃"
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "eventId": "e1",
+      "trackId": "ze",
+      "interpretation": "獨自守住證據也無法離開封鎖的港口，需要有人接應",
+      "reaction": "躲在倉庫裡，用燈向對岸漁船發出求救暗號",
+      "after": {
+        "state": "秘密求援",
+        "knowledge": "公司控制出口，錄音是能揭露偷排的證據",
+        "goal": "讓漁船接應並把證據送出港",
+        "obstacle": "不確定對岸是否看見訊號",
+        "motivation": "不再讓公司的偷排被掩蓋"
+      }
+    },
+    {
+      "eventId": "e2",
+      "trackId": "lin",
+      "interpretation": "他還是會照顧我",
+      "reaction": "收下船票，替哥哥保留位置",
+      "after": {
+        "state": "信任",
+        "knowledge": "哥哥把離開的機會留給我",
+        "goal": "等哥哥一起走",
+        "obstacle": "封港和時間壓力",
+        "motivation": "不想再次失去家人"
+      }
+    },
+    {
+      "eventId": "e3",
+      "trackId": "lin",
+      "interpretation": "封條把哥哥與失竊連在一起",
+      "reaction": "把封條藏起，暫不質問",
+      "after": {
+        "state": "懷疑",
+        "knowledge": "哥哥持有貨櫃封條；原因未知",
+        "goal": "私下確認哥哥是否涉案",
+        "obstacle": "不敢破壞關係",
+        "motivation": "需要信任能被證明"
+      }
+    },
+    {
+      "eventId": "e4",
+      "trackId": "ze",
+      "interpretation": "再說一句就會把她捲進來",
+      "reaction": "刪掉威脅訊息",
+      "after": {
+        "state": "孤立",
+        "knowledge": "公司已發現他複製錄音",
+        "goal": "讓林帶記憶卡離開",
+        "obstacle": "不敢說出船票的秘密",
+        "motivation": "以隱瞞維持保護"
+      }
+    },
+    {
+      "eventId": "e5",
+      "trackId": "audience",
+      "interpretation": "照片似乎坐實哥哥涉案",
+      "reaction": "把先前線索串成錯誤解釋",
+      "after": {
+        "state": "誤判",
+        "knowledge": "阿澤確實進了倉庫；目的仍未知",
+        "goal": "等待他承認罪行",
+        "obstacle": "把出現地點當作動機",
+        "motivation": "希望拼出一致的答案"
+      }
+    },
+    {
+      "eventId": "e6",
+      "trackId": "lin",
+      "interpretation": "他拒絕解釋，就是不相信我",
+      "reaction": "轉身自行追查",
+      "after": {
+        "state": "決裂",
+        "knowledge": "哥哥被拍到進倉庫，且拒絕說明",
+        "goal": "迫使哥哥交出真相",
+        "obstacle": "哥哥的沉默",
+        "motivation": "不願再被替自己決定"
+      }
+    },
+    {
+      "eventId": "e8",
+      "trackId": "lin",
+      "interpretation": "阻止他離開，就能讓他說話",
+      "reaction": "鎖住側門",
+      "after": {
+        "state": "控制",
+        "knowledge": "倉庫與錄音機有關，但缺少記憶卡",
+        "goal": "把哥哥留下來對質",
+        "obstacle": "不知道門也是逃生出口",
+        "motivation": "以掌控抵抗不安"
+      }
+    },
+    {
+      "eventId": "e9",
+      "trackId": "ze",
+      "interpretation": "一個人承擔已經傷害了她",
+      "reaction": "停止掩飾，指向燈",
+      "after": {
+        "state": "坦白",
+        "knowledge": "公司正要淹掉倉庫；側門被鎖",
+        "goal": "讓林理解訊號並合作逃生",
+        "obstacle": "信任已經破裂",
+        "motivation": "承認保護也可能成為傷害"
+      }
+    },
+    {
+      "eventId": "e10",
+      "trackId": "lin",
+      "interpretation": "那盞燈是在求救，不是在接應",
+      "reaction": "跟著哥哥辨認訊號",
+      "after": {
+        "state": "重新理解",
+        "knowledge": "亮燈是求救；哥哥正在被追捕",
+        "goal": "找到能證明這件事的完整證據",
+        "obstacle": "仍不知道記憶卡在哪裡",
+        "motivation": "願意修正自己的判斷"
+      }
+    },
+    {
+      "eventId": "e10",
+      "trackId": "audience",
+      "interpretation": "第一幕的燈有完全不同的意義",
+      "reaction": "重新理解已經看過的線索",
+      "after": {
+        "state": "恍然",
+        "knowledge": "燈是求救訊號；片面照片誤導了判斷",
+        "goal": "看見真相能否被公開",
+        "obstacle": "公司仍控制港口",
+        "motivation": "希望理解轉化成行動"
+      }
+    },
+    {
+      "eventId": "e11",
+      "trackId": "lin",
+      "interpretation": "哥哥想救的不只是自己",
+      "reaction": "打開記憶卡，聽完整錄音",
+      "after": {
+        "state": "理解",
+        "knowledge": "船票裡是偷排廢料的完整錄音",
+        "goal": "與哥哥一起公開證據",
+        "obstacle": "離港機會即將消失",
+        "motivation": "把選擇權拿回自己手中"
+      }
+    },
+    {
+      "eventId": "e12",
+      "trackId": "lin",
+      "interpretation": "留下是我自己的選擇",
+      "reaction": "走向廣播室",
+      "after": {
+        "state": "主動承擔",
+        "knowledge": "公開錄音可能使兄妹一同被調查",
+        "goal": "把錄音播給全港",
+        "obstacle": "可能失去離港機會",
+        "motivation": "用行動定義新的信任"
+      }
+    },
+    {
+      "eventId": "e12",
+      "trackId": "ze",
+      "interpretation": "她有權決定自己承擔什麼",
+      "reaction": "交出廣播室的鑰匙",
+      "after": {
+        "state": "共同承擔",
+        "knowledge": "林知道全部風險仍選擇留下",
+        "goal": "與林一起公開真相",
+        "obstacle": "必須放棄獨自控制局面",
+        "motivation": "尊重比替她決定更重要"
+      }
+    },
+    {
+      "eventId": "e13",
+      "trackId": "audience",
+      "interpretation": "秘密終於成為公開的事實",
+      "reaction": "關注人物必須付出的代價",
+      "after": {
+        "state": "共同見證",
+        "knowledge": "完整錄音已公開，偷排事實可被核查",
+        "goal": "看見公開之後的後果",
+        "obstacle": "結果還沒有保證",
+        "motivation": "期待選擇有真實重量"
+      }
+    },
+    {
+      "eventId": "e16",
+      "trackId": "lin",
+      "interpretation": "信任可以有界線",
+      "reaction": "交出另一張票，也說出自己的規則",
+      "after": {
+        "state": "有界線的信任",
+        "knowledge": "哥哥願意讓她參與決定",
+        "goal": "一起面對調查與下一次選擇",
+        "obstacle": "過去傷害不會立刻消失",
+        "motivation": "彼此尊重而非盲目依賴"
+      }
+    },
+    {
+      "eventId": "e16",
+      "trackId": "ze",
+      "interpretation": "信任需要共享選擇，而非代替選擇",
+      "reaction": "接過票，等待林先走",
+      "after": {
+        "state": "平等",
+        "knowledge": "林仍願意同行，但不再接受隱瞞",
+        "goal": "學習把真相與決定交還對方",
+        "obstacle": "習慣以沉默保護人",
+        "motivation": "願意讓保護變成合作"
+      }
+    }
+  ]
+}
